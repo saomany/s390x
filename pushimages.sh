@@ -12,6 +12,7 @@ docker tag prom/pushgateway:v0.4.0 saomany/pushgateway:v0.4.0
 docker tag grafana/grafana:5.0.0 saomany/grafana:5.0.0
 docker tag quay.io/coreos/grafana-watcher:v0.0.8 saomany/grafana-watcher:v0.0.8
 docker tag bobrik/curator saomany/curator
+docker tag gcr.io/kubernetes-helm/tiller:canary saomany/tiller:canary
 
 docker push saomany/hyperkube:v1.7.6_coreos.0
 docker push saomany/elasticsearch-oss:6.2.4
@@ -27,3 +28,4 @@ docker push saomany/grafana:5.0.0
 docker push saomany/grafana-watcher:v0.0.8
 docker push saomany/grafana-watcher:v0.0.8
 docker push  saomany/curator
+docker push  saomany/tiller:canary
